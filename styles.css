@@ -10,15 +10,57 @@ html, body {
     border: 1px solid #c6c6c6;
     border-radius: .3rem;
     padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
 }
 
-.container input {
-    margin-top: 1rem;
+.upper {
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-between;
+    color: #828282;
 }
 
-.form {
-    margin: 0 auto;
-    width: 60%;
-    min-width: 10rem;
+.Home {
+    color: #070707;
 }
- 
+
+.Line {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    color: #828282;
+}
+
+.middle {
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-between;
+    color: #070707;
+}
+
+.name {
+    font-size: 3rem;
+    line-height: 3.7rem;
+}
+
+.profi {
+    align-self: end;
+}
+
+.lang {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    transform: rotate(-90deg);
+}
+
+.lang > span {
+    color: #828282;
+}
+
+img {
+    width: 100%;
+    height: 24rem;
+    margin-top: 3rem;
+    margin-bottom: 6.5rem;
+}
