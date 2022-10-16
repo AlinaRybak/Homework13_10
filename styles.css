@@ -2,22 +2,20 @@ html, body {
     font-size: 16px;
 }
 
-.container {
-    width: 90%;
-    min-width: 85rem;
-    margin: 0 auto;
+.container { 
     background: #FFFFFF;
-    border: 1px solid #c6c6c6;
-    border-radius: .3rem;
-    padding: 1rem;
     font-size: 1.2rem;
     line-height: 1.4rem;
 }
 
+.get-start {
+    background: #FFFFFF;
+}
+
 .upper {
     display: flex;
-    flex-direction: initial;
     justify-content: space-between;
+    margin-top: 2rem;
     color: #828282;
 }
 
@@ -63,4 +61,4 @@ img {
     height: 24rem;
     margin-top: 3rem;
     margin-bottom: 6.5rem;
-}
+} 
