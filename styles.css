@@ -1,26 +1,32 @@
-html, body {
+@font-face {
+    font-family: font;
+    src: url("./fonts/font-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: font;
+    src: url("./fonts/font-Regular.ttf");
+    font-weight: 400;
+}
+
+html, body { 
     font-size: 16px;
+    font-family: font;
 }
 
 .container { 
-    background: #FFFFFF;
     font-size: 1.2rem;
-    line-height: 1.4rem;
-}
-
-.get-start {
-    background: #FFFFFF;
+    line-height: 1.4rem;  
 }
 
 .upper {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
     color: #828282;
 }
 
 .Home {
     color: #070707;
+    font-weight: 700;
 }
 
 .Line {
@@ -31,34 +37,30 @@ html, body {
 }
 
 .middle {
-    display: flex;
     flex-direction: initial;
-    justify-content: space-between;
     color: #070707;
 }
 
 .name {
     font-size: 3rem;
     line-height: 3.7rem;
-}
-
-.profi {
-    align-self: end;
+    font-weight: 700;
 }
 
 .lang {
     font-size: 1rem;
     line-height: 1.25rem;
     transform: rotate(-90deg);
+    font-weight: 700;
 }
 
 .lang > span {
     color: #828282;
 }
 
-img {
-    width: 100%;
-    height: 24rem;
-    margin-top: 3rem;
-    margin-bottom: 6.5rem;
+.image {
+    background-image: url(./images/image.avif);
+    background-position: center;
+    background-position-y: 66rem;
+    height: 27rem;
 } 
