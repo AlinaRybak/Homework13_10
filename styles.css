@@ -16,6 +16,7 @@ html, body {
 }
 
 .container { 
+    padding: 0;
     font-size: 1.2rem;
     line-height: 1.4rem;  
 }
@@ -24,12 +25,12 @@ html, body {
     color: #828282;
 }
 
-.Home {
+.home {
     color: #070707;
     font-weight: 700;
 }
 
-.Line {
+.line {
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 2.5rem;
@@ -37,7 +38,7 @@ html, body {
 }
 
 .middle {
-    flex-direction: initial;
+    align-items: end;
     color: #070707;
 }
 
@@ -48,6 +49,7 @@ html, body {
 }
 
 .lang {
+    width: 1rem;
     font-size: 1rem;
     line-height: 1.25rem;
     transform: rotate(-90deg);
@@ -58,9 +60,7 @@ html, body {
     color: #828282;
 }
 
-.image {
-    background-image: url(./images/image.avif);
-    background-position: center;
-    background-position-y: 66rem;
-    height: 27rem;
+.container > img {
+    width: 100%;
+    padding-top: 2rem;
 } 
