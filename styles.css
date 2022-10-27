@@ -15,10 +15,14 @@ html, body {
     font-family: font;
 }
 
+.font-custom {
+    font-size: 1.2rem;
+    line-height: 1.4rem; 
+}
+
 .container { 
     padding: 0;
-    font-size: 1.2rem;
-    line-height: 1.4rem;  
+ 
 }
 
 .upper {
@@ -70,6 +74,10 @@ html, body {
     background:#F6F6F6;
 }
 
+.about-custom .container {
+    padding-bottom: 2rem;
+}
+
 .about {
     font-size: 2.1rem;
     line-height: 2.6rem;
@@ -77,3 +85,54 @@ html, body {
     padding-bottom: 1.1rem;
 }
 
+.about-custom .container > p {
+    margin-bottom: 2rem;
+}
+
+
+.skills {
+    background: white;
+}
+
+.custom-skills {
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+    padding-top: 5.7rem;
+    padding-bottom: 4.3rem;
+}
+
+.i_work {
+    padding-bottom: 5rem;
+}
+
+.ps > img {
+    width: 5.6rem;
+    height: 5.6rem;
+    background-image: url(./images/Vector_PS.png);
+    background-position: center center;
+}
+
+.name-skill {
+    font-size: .87rem;
+    line-height: 1.06rem;
+    color: #828282;
+    padding-top: 1.5rem;
+}
+
+.star {
+    padding-top: 2.5rem;
+}
+
+.ai > img {
+    width: 5.6rem;
+    height: 5.6rem;
+    background-image: url(./images/Vector_AI.png);
+    background-position: center center;
+}
+
+.ae > img {
+    width: 5.6rem;
+    height: 5.6rem;
+    background-image: url(./images/Vector_Ae.png);
+    background-position: center center;
+}
